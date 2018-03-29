@@ -22,7 +22,7 @@ function handleClick() {
 }
 
 function displayQuestionAndAnswer(question, answer) {
-  $("#results-area").text("True or false?");
+  $("#results-area").text("Is this a ruse?");
   $("#question-display").text(question);
   $("#answer-display").text("Answer: " + answer);
 }
